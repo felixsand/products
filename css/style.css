@@ -1,0 +1,87 @@
+#heading,
+#add_box,
+#list_box {
+	width: 450px;
+}
+
+#heading h3 {
+	width: 100px;
+	border-bottom: 2px solid black;
+}
+
+#heading a {
+	display: block;
+	float: right;
+	text-decoration: none;
+	position: relative;
+	bottom: 40px;
+}
+
+#add_box,
+#list_box {
+	border: 2px solid black;
+}
+
+#add_box {
+	height: 450px;
+}
+
+#add_box input[type=text],
+#add_box textarea,
+#add_box input[type=submit],
+#list_box input[type=text],
+#list_box textarea,
+#list_box input[type=submit] {
+	display: block;
+}
+
+#add_box input[type=text],
+#add_box textarea {
+	width: 300px;
+}
+
+#list_box input[type=text],
+#list_box textarea {
+	width: 250px;
+}
+
+#add_box input[type=text],
+#add_box textarea {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#list_box input[type=text],
+#list_box textarea {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#add_box textarea {
+	height: 300px;
+}
+
+#list_box textarea {
+	height: 200px;
+}
+
+#add_box input[type=submit] {
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+#list_box input[type=submit] {
+	float: right;
+	margin-right: 20px;
+	position: relative;
+	bottom: 240px;
+}
+
+#list_box ul {
+	padding: 0;
+}
+
+#list_box li {
+	list-style: none;
+}
